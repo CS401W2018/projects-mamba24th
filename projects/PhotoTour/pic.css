@@ -17,6 +17,7 @@ body {
     width: 100px; /* Adjust the size as needed */
     opacity: 0.9; /* Slight opacity */
     z-index: 1; /* Ensure the logo appears above the blurred background */
+    height: 10;
 }
 
 img {
