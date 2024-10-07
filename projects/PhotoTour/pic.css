@@ -27,7 +27,7 @@ header {
 /* Navigation */
 nav ul {
     list-style-type: none;
-    background-color: #444;
+    background-color: cyan;
     margin: 0;
     padding: 10px;
     text-align: center;
@@ -60,7 +60,7 @@ h2 {
 }
 
 p {
-    color: #555;
+    color:  cyan;
 }
 
 /* Custom Bullet Points */
