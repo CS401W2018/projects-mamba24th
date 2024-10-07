@@ -7,8 +7,17 @@ body {
     background-image: url('philippines.jpg'); /* Path to the Philippines flag image */
     background-repeat: repeat; /* This makes the flag repeat */
     background-size: 100px 50px; /* Adjust the size of the flag for tiling */
-    filter:blur(20px);
+    filter:blur(20px)
     opacity:20%;
+}
+
+.logo {
+    position: fixed; /* Fixed position to keep the logo in view */
+    top: 20px; /* Adjust the vertical position */
+    right: 20px; /* Adjust the distance from the right */
+    width: 100px; /* Adjust the size as needed */
+    opacity: 0.9; /* Slight opacity */
+    z-index: 1; /* Ensure the logo appears above the blurred background */
 }
 
 img {
@@ -27,7 +36,7 @@ header {
 /* Navigation */
 nav ul {
     list-style-type: none;
-    background-color: cyan;
+    background-color: #444;
     margin: 0;
     padding: 10px;
     text-align: center;
@@ -60,7 +69,7 @@ h2 {
 }
 
 p {
-    color:  cyan;
+    color: #555;
 }
 
 /* Custom Bullet Points */
