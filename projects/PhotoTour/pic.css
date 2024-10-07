@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Light aqua background for tropical feel */
+    background-image: url('images/tropical-bg.jpg'); /* Repeating tropical texture */
+    background-repeat: repeat-x; /* Repeat the background horizontally */
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    background-color: #444;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav ul li a.active {
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #007bff;
+}
+
+p {
+    color: #555;
+}
+
+/* Custom Bullet Points */
+.custom-bullet {
+    list-style-image: url('images/bullet-icon.png');
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
