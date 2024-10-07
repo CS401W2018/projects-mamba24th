@@ -76,7 +76,7 @@ p {
 
 /* Custom Bullet Points */
 .custom-bullet {
-    list-style-image: url('images/bullet-icon.png');
+    list-style-image: url('leaf.png');
 }
 
 /* Footer */
