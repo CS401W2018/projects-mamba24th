@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     
-    background-image: url('beautiful.jpeg'); /* Path to the Philippines flag image */
+    background-image: url('beautiful.jpeg');
     background-repeat: repeat; /* This makes the flag repeat */
     background-size: 100px 50px; /* Adjust the size of the flag for tiling */
    
@@ -12,7 +12,7 @@ body {
 
 .logo {
     position: fixed; /* Fixed position to keep the logo in view */
-    top: 100px; /* Adjust the vertical position */
+    top: -50px; /* Adjust the vertical position */
     right: 20px; /* Adjust the distance from the right */
     width: 100px; /* Adjust the size as needed */
     opacity: 0.9; /* Slight opacity */
