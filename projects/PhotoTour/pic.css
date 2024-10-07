@@ -4,16 +4,11 @@ body {
     margin: 0;
     padding: 0;
     
-
-
-}
-
-.background {
-    filter:blur(5px);
-    opacity:20%;
     background-image: url('philippines.jpg'); /* Path to the Philippines flag image */
     background-repeat: repeat; /* This makes the flag repeat */
     background-size: 100px 50px; /* Adjust the size of the flag for tiling */
+    filter:blur(20px);
+    opacity:20%;
 }
 
 img {
