@@ -52,18 +52,20 @@ nav ul li a.active {
 
 /* Main Content */
 main {
-    .logo {
-    position: fixed; /* Fixed position to keep the logo in view */
-    top: 250px; /* Adjust the vertical position */
-    right: 20px; /* Adjust the distance from the right */
-    width: 200px; /* Adjust the size as needed */
-    opacity: 0.9; /* Slight opacity */
-    z-index: 1; /* Ensure the logo appears above the blurred background */
-    height: 10%; 
-}
+   
     padding: 20px;
     text-align: center;
 
+}
+
+.logo {
+    position: fixed; /* Keeps the logo fixed in the viewport */
+    top: 50%; /* Centers the logo vertically */
+    right: 20px; /* Position the logo 20px from the right edge */
+    transform: translateY(-50%); /* Adjusts to center vertically within the viewport */
+    width: 150px; /* Adjust the size of the logo */
+    opacity: 0.9; /* Slight opacity to blend with background */
+    z-index: 10; /* Ensures it appears above other elements */
 }
 
 h2 {
