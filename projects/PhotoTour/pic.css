@@ -1,11 +1,11 @@
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #e0f7fa; /* Light aqua background for tropical feel */
-    background-image: url('images/tropical-bg.jpg'); /* Repeating tropical texture */
-    background-repeat: repeat-x; /* Repeat the background horizontally */
     margin: 0;
     padding: 0;
+    background-image: url('philippine.jpg'); /* Path to the Philippines flag image */
+    background-repeat: repeat; /* This makes the flag repeat */
+    background-size: 100px 50px; /* Adjust the size of the flag for tiling */
 
 }
 
