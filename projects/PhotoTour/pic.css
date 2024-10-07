@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     
-    background-image: url('beautiful.jpeg');
+    background-image: url('paint.jpg');
     background-repeat: repeat; /* This makes the flag repeat */
     background-size: 100px 50px; /* Adjust the size of the flag for tiling */
    
