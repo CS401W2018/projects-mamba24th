@@ -12,7 +12,7 @@ body {
 
 .logo {
     position: fixed; /* Fixed position to keep the logo in view */
-    top: -50px; /* Adjust the vertical position */
+    top: 50px; /* Adjust the vertical position */
     right: 20px; /* Adjust the distance from the right */
     width: 100px; /* Adjust the size as needed */
     opacity: 0.9; /* Slight opacity */
