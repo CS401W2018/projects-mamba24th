@@ -10,15 +10,7 @@ body {
    
 }
 
-.logo {
-    position: fixed; /* Fixed position to keep the logo in view */
-    top: 50px; /* Adjust the vertical position */
-    right: 20px; /* Adjust the distance from the right */
-    width: 100px; /* Adjust the size as needed */
-    opacity: 0.9; /* Slight opacity */
-    z-index: 1; /* Ensure the logo appears above the blurred background */
-    height: 10%; 
-}
+
 
 img {
     width:100%;
@@ -60,8 +52,18 @@ nav ul li a.active {
 
 /* Main Content */
 main {
+    .logo {
+    position: fixed; /* Fixed position to keep the logo in view */
+    top: 50px; /* Adjust the vertical position */
+    right: 20px; /* Adjust the distance from the right */
+    width: 100px; /* Adjust the size as needed */
+    opacity: 0.9; /* Slight opacity */
+    z-index: 1; /* Ensure the logo appears above the blurred background */
+    height: 10%; 
+}
     padding: 20px;
     text-align: center;
+
 }
 
 h2 {
