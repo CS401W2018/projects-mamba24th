@@ -9,6 +9,11 @@ body {
 
 }
 
+img {
+    width:100%;
+    height:auto;
+}
+
 /* Header */
 header {
     background-color: #333;
